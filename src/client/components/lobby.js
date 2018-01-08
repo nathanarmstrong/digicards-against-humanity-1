@@ -60,7 +60,7 @@ class LobbySidebar extends ContainerBase {
 			<section className="c-lobby-sidebar">
 				<div className="m-sidebar-buttons">
 					{!opLogin.can ? null :
-						<button className="m-button primary" onClick={this._login}>Login</button>}
+						<button className="m-button primary" onClick={this._login}>Create User</button>}
 
 					{!opCreateGame.can ? null :
 						<button
