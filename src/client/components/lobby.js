@@ -27,7 +27,7 @@ class LobbyContainer extends ContainerBase {
 		return (
 			<div className="c-lobby">
 				<div className="c-banner" >
-					<h1 className="banner">Digicards Against Humanity</h1>
+					<h1 className="banner">Digicards</h1>
 				</div>
 					<GameList games={games} joinGame={this._joinGame} />
 					<Chat
