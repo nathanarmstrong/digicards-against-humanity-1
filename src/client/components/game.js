@@ -110,7 +110,7 @@ class GameSidebar extends ContainerBase {
 				<div className="m-sidebar-buttons">
 					{!opLogin.can ? null :
 						<button className="m-button primary" onClick={this._login}>
-							Login to join game
+							Create user to join game
 						</button>}
 
 					<button className="m-button" onClick={this._exitGame}>Leave game</button>
