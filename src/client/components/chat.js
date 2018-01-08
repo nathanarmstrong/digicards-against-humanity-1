@@ -59,7 +59,7 @@ export default class Chat extends Component {
 				<form onSubmit={this._sendMessage}>
 					<TextInput 
 						className="top-border"
-						placeholder={opSendMessage.can ? "enter a message" : "please login to chat"}
+						placeholder={opSendMessage.can ? "enter a message" : "please create user to chat"}
 						ref={c => this._text = c}
 						disabled={!opSendMessage.can} />
 				</form>
